@@ -1,0 +1,39 @@
+{
+  "name": "fix-my-life",
+  "version": "0.1.0",
+  "description": "A patient AI life-debugging companion that helps people untangle what is wrong and find one realistic next step.",
+  "author": {
+    "name": "小仔",
+    "url": "https://github.com/chris58530"
+  },
+  "homepage": "https://github.com/chris58530/fix-my-life",
+  "repository": "https://github.com/chris58530/fix-my-life",
+  "license": "MIT",
+  "keywords": [
+    "life-coaching",
+    "reflection",
+    "decision-making",
+    "encouragement",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fix My Life",
+    "shortDescription": "Patient life debugging, one question at a time.",
+    "longDescription": "A warm, patient AI mentor that listens first, untangles the real problem, offers grounded encouragement, and helps the user choose one realistic next step.",
+    "developerName": "小仔",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "brandColor": "#E9825D",
+    "screenshots": [
+      "./assets/fix-my-life-hero-v4.png"
+    ],
+    "defaultPrompt": [
+      "I feel stuck and don't know where to begin.",
+      "Help me untangle a decision without rushing me.",
+      "I need encouragement and one realistic next step."
+    ]
+  }
+}

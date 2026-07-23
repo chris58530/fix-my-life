@@ -1,0 +1,20 @@
+{
+  "name": "fix-my-life",
+  "interface": {
+    "displayName": "Fix My Life"
+  },
+  "plugins": [
+    {
+      "name": "fix-my-life",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fix-my-life"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

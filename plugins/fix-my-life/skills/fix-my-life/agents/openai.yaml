@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix My Life"
+  short_description: "Untangle life's mess, one honest step at a time"
+  default_prompt: "Use $fix-my-life to patiently help me untangle what is going on and find one realistic next step."

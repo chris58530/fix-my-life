@@ -18,7 +18,7 @@ The name treats life like a buggy project:
 
 Sadly, there is no one-click patch for being human. The AI brought a tiny toolbox anyway.
 
-The slash-command look is the joke and the project name. In Codex, the reliable explicit invocation is `$fix-my-life` or selecting the skill through `/skills`.
+The slash-command look is the joke and the project name. You can install the same skill in Codex or Claude Code.
 
 ## What it does
 
@@ -30,7 +30,7 @@ The slash-command look is the joke and the project name. In Codex, the reliable 
 - Turns insight into one small, realistic, reversible next step.
 - Treats unsuccessful attempts as information, not personal failure.
 
-## Install
+## Install in Codex
 
 Add this GitHub repository as a Codex plugin marketplace, then install the plugin:
 
@@ -41,18 +41,33 @@ codex plugin add fix-my-life@fix-my-life
 
 Restart Codex if the new skill does not appear immediately.
 
+Use `$fix-my-life` or select **Fix My Life** through `/skills`.
+
+## Install in Claude Code
+
+Add this GitHub repository as a Claude Code plugin marketplace, then install the plugin:
+
+```bash
+claude plugin marketplace add chris58530/fix-my-life
+claude plugin install fix-my-life@fix-my-life
+```
+
+Use `/fix-my-life:fix-my-life`, or simply describe what is weighing on you and let Claude load the skill when relevant.
+
 ## Use
 
 Invoke the skill and start wherever you can:
 
 ```text
-$fix-my-life
+$fix-my-life                  # Codex
+/fix-my-life:fix-my-life      # Claude Code
 ```
 
 Or include the problem directly:
 
 ```text
 $fix-my-life I know I need to change jobs, but I keep avoiding the decision.
+/fix-my-life:fix-my-life I know I need to change jobs, but I keep avoiding the decision.
 ```
 
 The first response should feel more like this:

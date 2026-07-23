@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "fix-my-life",
+  "displayName": "Fix My Life",
+  "version": "0.2.0",
+  "description": "A patient AI life-debugging companion that helps people untangle what is wrong and find one realistic next step.",
+  "author": {
+    "name": "小仔",
+    "url": "https://github.com/chris58530"
+  },
+  "homepage": "https://github.com/chris58530/fix-my-life",
+  "repository": "https://github.com/chris58530/fix-my-life",
+  "license": "MIT",
+  "keywords": [
+    "life-coaching",
+    "reflection",
+    "decision-making",
+    "encouragement",
+    "productivity"
+  ]
+}

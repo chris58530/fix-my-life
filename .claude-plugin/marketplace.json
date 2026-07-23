@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fix-my-life",
+  "description": "A patient AI life-debugging companion, one useful question at a time.",
+  "owner": {
+    "name": "小仔"
+  },
+  "plugins": [
+    {
+      "name": "fix-my-life",
+      "source": "./plugins/fix-my-life",
+      "description": "Patient life guidance for untangling what is wrong and finding one realistic next step.",
+      "category": "productivity"
+    }
+  ]
+}
